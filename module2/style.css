@@ -2,29 +2,28 @@ h1{
 	text-align: center;
 	color: black;
 }
+
+body{
+	margin:0;
+	padding:0;
+}
+
 .chicken{
-	position: relative;
-	top: 50px;
-	left: 50px;
-	color: red;
+	color: black;
 	background-color: pink;
+}
+
+#content{
+	background-color: grey;
+	color: black;
+}
 
 .beef{
-	position: relative;
-	top: 50px;
-	left: 100px;
-	color: blue;
+	color: white;
 	background-color: red;
-	padding:20px 20px 20px 20px;
-	margin: 50px 25px 50px 25px;
-	width: 50px;
-	border: 30px solid black;
 }
 
 .sushi{
-	position: relative;
-	top: 50px;
-	left: 150px;
-	color: green;
+	color: black;
 	background-color: yellow;
 }
