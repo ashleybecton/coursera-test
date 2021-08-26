@@ -17,10 +17,10 @@ h1{
 	background-color: red;
 	padding:20px 20px 20px 20px;
 	margin: 50px 25px 50px 25px;
-	width: 50px
+	width: 50px;
 	border: 30px solid black;
 }
-}
+
 .sushi{
 	position: relative;
 	top: 50px;
