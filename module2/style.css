@@ -6,14 +6,17 @@ h1{
 	position: relative;
 	top: 50px;
 	left: 50px;
+	color: red;
 }
 .beef{
 	position: relative;
 	top: 50px;
 	left: 100px;
+	color: blue;
 }
 .sushi{
 	position: relative;
 	top: 50px;
 	left: 150px;
+	color: green;
 }
