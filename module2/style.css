@@ -8,12 +8,29 @@ body{
 	padding:0;
 }
 
+/*for large devices*/ 
+
+@media (max-width: 992px) {
+	.content {
+		width:50%;
+		
+	}
+
+}
+
+/*for tablet devices*/
+@media (max-width: 991px) and (min-width: 768px){
+	.content {
+		width: 50%
+	}
+}
+
 .chicken{
-	font-weight: black;
+	color: black;
 	background-color: pink;
 }
 
-#content{
+.content{
 	background-color: grey;
 	color: black;
 }
