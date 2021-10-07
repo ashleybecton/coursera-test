@@ -1,59 +1,122 @@
-h1{
-	text-align: center;
-	color: black;
-}
-
 body{
 	margin:0;
 	padding:0;
 }
 
-/*for large devices*/ 
-
-@media (max-width: 992px) {
-	.content {
-		width:50%;
-		
-	}
-
+h1 {
+  text-align: center;
+  font-family: helvetica;
+  font-size: 27px;
 }
 
-/*for tablet devices*/
-@media (max-width: 991px) and (min-width: 768px){
-	.content {
-		width: 50%;
-	}
+* {
+  box-sizing: border-box;
+ 
 }
 
-/*for mobile devices*/
-@media (max-width: 767px){
-	.content {
-		width: 50%;
-	}
+#container {
+  border: 3px solid black;
+  margin-left: 300px;
+  margin-top: -3px;
+  margin-right: -3px;
+  margin-bottom: -15px;
+  text-align: center;
+  font-family: helvetica;
+  font-weight: bold;
+  background-color: red;
+  font-size: 18px;
+  
+  
+}
+
+p {
+  width: 90%;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  color: black;
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 15px;
+  
+   
 }
 
 
-div#container{
 
-	background-color: #00ffff;
+/*Simple Responsive Framework-Columns*/
+.row {
+  width: 100%;
+  
+ }
 
-.chicken{
-	color: black;
-	background-color: pink;
+/*Large Devices Setup*/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+    border: 3px solid black; 
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: grey;
+    }
+  
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 66.66%;
+  }
+  .col-lg-3 {
+    width: 99.99%;
+  }
+  
 }
 
-#content{
-	background-color: grey;
-	color: black;
+/*Tablet Device Setup*/
+@media (max-width: 991px) and (min-width: 768px) {
+  .col-tab-1, .col-tab-2, .col-tab-3 {
+    float: left;
+    border: 3px solid black;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: grey;
+
+    }
+  
+  .col-tab-1 {
+    width: 33.33%;
+  }
+  .col-tab-2 {
+    width: 66.66%;
+  }
+  .col-tab-3 {
+    width: 99.99%;
+  }
+  
 }
 
-.beef{
-	color: white;
-	background-color: red;
-}
-
-.sushi{
-	color: black;
-	background-color: yellow;
-}
+/*Mobile Device Setup*/
+@media (max-width: 767px) {
+  .col-mob-1, .col-mob-2, .col-mob-3 {
+    float: left;
+    border: 3px solid black;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    backgound-color: grey;
+    }
+  .col-mob-1 {
+    width: 33.33%;
+  }
+  .col-mob-2 {
+    width: 66.66%;
+  }
+  .col-mob-3 {
+    width: 99.99%;
+  }
+  
 }
