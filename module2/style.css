@@ -34,7 +34,7 @@ h1 {
   font-weight: bold;
   background-color: #f70939;
   font-size: 18px;
-  font-color: #fefefe;
+  font-color: #FEFEFE;
  }
 
 #containerSushi {
@@ -140,7 +140,7 @@ p {
     width: 41.66%;
   }
   .col-tab-6 {
-    width: 48%;
+    width: 50%;
   }
   .col-tab-7 {
     width: 58.33%;
