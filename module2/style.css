@@ -141,6 +141,7 @@ p {
   }
   .col-tab-6 {
     width: 45%;
+    float: left;
   }
   .col-tab-7 {
     width: 58.33%;
