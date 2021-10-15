@@ -119,7 +119,7 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-tab-1, .col-tab-2, .col-tab-3, .col-tab-4, .col-tab-5, .col-tab-6, .col-tab-7, .col-tab-8, .col-tab-9, .col-tab-10, .col-tab-11, .col-tab-12 {
     float: left;
-    border: 3px solid black; 
+    border: 2px solid black; 
     background-color: grey;
     margin: 1%;
     }
@@ -134,13 +134,13 @@ p {
     width: 25%;
   }
   .col-tab-4 {
-    width: 33.33%;
+    width: 31%;
   }
   .col-tab-5 {
     width: 41.66%;
   }
   .col-tab-6 {
-    width: 100%;
+    width: 48%;
   }
   .col-tab-7 {
     width: 58.33%;
@@ -167,7 +167,7 @@ p {
 @media (max-width: 767px) {
   .col-mob-1, .col-mob-2, .col-mob-3, .col-mob-4, .col-mob-5, .col-mob-6, .col-mob-7, .col-mob-8, .col-mob-9, .col-mob-10, .col-mob-11, .col-mob-12 {
     float: left;
-    border: 3px solid black; 
+    border: 2px solid black; 
     background-color: grey;
     margin: 1%;
     }
